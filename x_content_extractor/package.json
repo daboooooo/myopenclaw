@@ -1,0 +1,23 @@
+{
+  "name": "x-content-extractor",
+  "version": "1.0.0",
+  "description": "A tool to extract content from X (Twitter) bypassing anti-scraping protections",
+  "main": "x_content_scraper.js",
+  "scripts": {
+    "scrape": "node x_content_scraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scraper",
+    "x",
+    "twitter",
+    "anti-scraping",
+    "playwright",
+    "automation"
+  ],
+  "author": "OpenClaw Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.58.0"
+  }
+}
